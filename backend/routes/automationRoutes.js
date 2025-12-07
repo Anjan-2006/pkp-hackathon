@@ -160,8 +160,8 @@ router.post('/subscribe', async (req, res) => {
   }
 });
 
-// Schedule Daily Email at 9:18 AM
-cron.schedule('18 9 * * *', async () => {
+// Schedule Daily Email at 9:30 AM
+cron.schedule('30 9 * * *', async () => {
   console.log('Running daily summary job...');
   
   try {
